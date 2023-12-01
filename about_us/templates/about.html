@@ -1,0 +1,20 @@
+{% extends  'base.html' %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css_file/about.css' %}">
+{% block content %}
+
+ <!-- Home section -->
+
+<div class="home_section">
+    <div class="items d-flex justify-content-center">
+        <div class="text_section j" style="margin-top: 200px; margin-right: 100px; text-align: center;">
+            <p style="font-size: 38px; color: #333;">Hello, I'm MD. Tanvir Uddin Alif this page is made by me, and I warmly welcome you to our culinary haven. Explore our delightful menu and experience the magic of flavors!</p>
+        </div>
+        <div class="image_section">
+            <img src="{% static 'images/me.png' %}" alt="" class="round_image">
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
